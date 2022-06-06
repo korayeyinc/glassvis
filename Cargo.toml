@@ -1,0 +1,20 @@
+[package]
+name = "imgdiff"
+version = "0.0.1"
+authors = ["Koray Eyinc <koray.eyinc@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+cairo-rs   = "0.9.1"
+gtk        = "0.9.0"
+gdk        = "0.13.0"
+gio        = "0.9.0"
+glib       = "0.10.1"
+gdk-pixbuf = "0.9.0"
+image      = "0.23.8"
+imageproc  = "0.21.0"
+
+[features]
+default = ["gtk_3_22"]
+gtk_3_22 = ["gtk/v3_22"] #for CI tools
+#futures-stable = ["glib/futures", "gio/futures"]
