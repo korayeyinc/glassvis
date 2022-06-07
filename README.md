@@ -1,6 +1,6 @@
-# ImgDiff
+# Glassvis
 
-GTK3 application for displaying image diffs between images.
+Desktop application developed for visual quality inspection of industrial panel glasses.
 
 
 ## Features
@@ -32,4 +32,4 @@ apt install libgtk-3-0
 
 * http://www.imagemagick.org/Usage/compare/#statistics
 * https://developer.gimp.org/api/2.0/gdk-pixbuf/gdk-pixbuf-scaling.html
-* https://www.smashingmagazine.com/2015/06/efficient-image-resizing-with-imagemagick/
+* https://crates.io/crates/imgproc-rs
